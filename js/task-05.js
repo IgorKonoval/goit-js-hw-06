@@ -6,6 +6,8 @@ const changeText = (event) => {
     !event.currentTarget.value.trim() === ""
   ) {
     outputText.textContent = event.currentTarget.value;
+  } else {
+    outputText.textContent = "Anonymous";
   }
 };
 
